@@ -46,9 +46,12 @@ app.get('/', async (req, res) => {
 			"selectBtn" : "/assets/selectBtn.png",
 		};
 
-		res.json({
-			images: images
-		});
+		res.writeHead(404, { 'Content-Type': 'text/plain' });
+		res.end('404 Not Found');
+
+		// res.json({
+		// 	images: images
+		// });
 
 		// if (optionIndex === 1) {
 		// 	const html = `
