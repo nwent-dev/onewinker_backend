@@ -54,7 +54,7 @@ app.get('/', async (req, res) => {
 			"blackLandscapeColor" : "/assets/blackLandscapeColor.png",
 			"blueBackground" : "/assets/blueBackground.png",
 			"blueBackgroundLandscape" : "/assets/blueBackgroundLandscape.png",
-			"blueColorBtn" : "/assets/blueColor.png",
+			"blueColor" : "/assets/blueColor.png",
 			"blueLandscapeColor" : "/assets/blueLandscapeColor.png",
 		};
 
