@@ -48,6 +48,7 @@ app.get('/', async (req, res) => {
 			"backgroundColor" : "/assets/backgroundColor.png",
 			"backgroundColorLandscape" : "/assets/backgroundColorLandscape.png",
 			"colorBtn" : "/assets/colorBtn.png",
+			"applyBtn" : "/assets/applyBtn.png",
 		};
 
 		if (optionIndex === 1) {
